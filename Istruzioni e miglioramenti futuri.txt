@@ -1,0 +1,27 @@
+------------ ISTRUZIONI ------------
+
+1) Inserire dei nuovi file png nella cartella raw_data
+2) Estrazione dati scontrini.ipynb
+	Aggiornare Database.csv eseguendo la parte "Processo principale"
+	Aggiornare Corretti manualmente.csv in automatico eseguendo la parte "Aggiornamento"
+	Controllare Database.csv per verificare se ci sono anomalie nelle letture non rilevate in automatico
+3) Articoli unici.ipynb
+	Aggiornare Articoli unici.xlsx eseguendo la parte "Aggiornamento Excel"
+	Assegnare un prodotto nel foglio "Prodotti"
+	Se è un prodotto nuovo, copiarlo nel foglio "Categorie" e assegnargli una nuova categoria e sotto-categoria
+4) Fact table.ipynb
+	Creare una tabella dei fatti che sostituisce l'articolo con l'Id articolo, eseguendo tutto il file
+	
+
+----------- MIGLIORAMENTI -----------
+
+CERTI
+Dopo monitoraggio, posso sostituire il prezzo proposto con il prezzo effettivo
+Creare un report
+
+IPOTETICI
+Potrei caricare su SQLite invece che fare un archivio di CSV
+Potrei aggiungere la confidenza se vedo che ci sono tanti problemi di lettura
+Potrei rifare da capo l'architettura, iniziando da subito a dare l'indice numerico senza sostituirlo a posteriori
+
+-------------------------------------
