@@ -17,11 +17,12 @@
 
 CERTI
 Dopo monitoraggio, posso sostituire il prezzo proposto con il prezzo effettivo
-Creare un report
+Monitorare i SUBTOTALE e simili che vengono letti male e sistemare la loro detection
+Diversi errori nella detection di data e ora
 
 IPOTETICI
 Potrei caricare su SQLite invece che fare un archivio di CSV
 Potrei aggiungere la confidenza se vedo che ci sono tanti problemi di lettura
-Potrei rifare da capo l'architettura, iniziando da subito a dare l'indice numerico senza sostituirlo a posteriori
+Potrei rifare da capo l'architettura, iniziando da subito a dare l'indice numerico senza sostituirlo a posteriori. Per ora non è comodo, per la fase di monitoraggio iniziale delle correzioni manuali
 
 -------------------------------------
